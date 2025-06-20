@@ -2,7 +2,7 @@ name: Run Web Scraper
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Runs daily at midnight
+    - cron: '*/10 * * * *'  # Runs every 10 minutes
 
 jobs:
   run-scraper:
