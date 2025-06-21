@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import psycopg2
+import os
 
 def scrape_immobilienscout24():
     url = 'https://www.immobilienscout24.ch'
