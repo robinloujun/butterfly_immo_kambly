@@ -2,7 +2,7 @@ name: Run Web Scraper
 
 on:
   schedule:
-    - cron: '*/10 * * * *'  # Runs every 10 minutes
+    - cron: '0 0 * * *'  # Runs daily at midnight
   workflow_dispatch:  # Allows manual triggering
 
 jobs:
